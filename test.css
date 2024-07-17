@@ -1,0 +1,247 @@
+body{
+    background-color: rgb(223, 208, 238);
+}
+
+.fixed-left {
+    position: fixed;
+ 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 260px; /* Adjust width as needed */
+    background-color: #e2eaf3;
+    border-right: 1px solid #ccc;
+    overflow: auto; /* Enable scrolling if content exceeds height */
+    padding: 10px; /* Example styling */
+}
+
+.logo{
+    align-content: center;
+    padding-left: 12%;
+}
+.rounded-box {
+    width: 230px;
+    height: auto;
+    padding: 5%;
+    text-align: left;
+    border-radius: 20px; /* Adjust the border-radius for more or less roundness */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    height: fit-content; /* Adjust height to fit content */
+}
+
+.rounded-box2 {
+  
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    border-style: none;
+    background-color: #e2eaf3;
+    border-radius: 10px; /* Adjust the border-radius for more or less roundness */
+    
+}
+
+
+.button-font{
+    font-size: large;
+}
+
+.section {
+    display: none; /* Initially hide the section */
+    border: none;
+    font-family: "Patua One", Arial, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 10px 0;
+}
+.icon {
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    vertical-align: middle; /* Optional: Align icon vertically with text */
+    transition: transform 0.2s ease; /* Smooth transition for rotation */
+}
+.rotate {
+    transform: rotate(180deg); /* Rotate the icon 180 degrees */
+}
+
+button {
+    border: none;
+    background-color:#e2eaf3 ;
+}
+
+/*-------------------------------------------------------Right Part Css---------------------------------------------------------------*/
+.content {
+    flex: 1;
+    padding-left: 21%;
+    padding-right: 0.2%;
+    overflow-y: auto; /* Enable scrolling for content area */
+
+}
+
+.p1{
+    font-size: large;
+}
+.h1{ 
+    text-align: center;
+    font-size: x-large;
+    vertical-align: middle;
+   
+ 
+    top:0
+    width 80%;
+    color: rgb(54, 40, 68);
+    
+}
+
+.image-container {
+    display: flex; /* Display images in a row */
+    justify-content: space-between; /* Space evenly between images */
+    align-items: center; /* Center align items vertically */
+    overflow-x: auto; /* Enable horizontal scrolling if images overflow */
+}
+
+.image-container img {
+    flex: 1 1 auto; /* Flex property to allow images to grow and shrink as needed */
+    max-width: 100%; /* Ensure each image takes up the entire width of the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Adjust spacing between images */
+}
+
+.box {
+    margin-top: 19px;
+    border-radius: 30px;
+    width: 400px; /* Adjust width as needed */
+    position: absolute;
+    text-align: justify;
+    left: 330px;
+    border: 1px solid #ccc; /* Border to define the box */
+    background-color: rgb(223, 208, 238); /* Background color of the box */
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 70%;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Border to define each box */
+    margin-bottom: 20px;
+    box-shadow: 0 0 50px rgba(126, 64, 64, 0.1);
+    
+}
+
+.box2 {
+    border-radius: 30px;
+    width: 400px; /* Adjust width as needed */
+    position: absolute;
+    text-align: justify;
+    top: 15.1cm;
+    left: 830px;;
+    border: 1px solid #ccc; /* Border to define the box */
+    background-color: rgb(223, 208, 238); /* Background color of the box */
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 0 50px rgba(126, 64, 64, 0.1);
+}
+.box3 {
+    width: 370px; /* Adjust width as needed */
+    position: absolute;
+    top: 20cm;
+    border-radius: 30px;
+    text-align: justify;
+    left: 330px;;
+    border: 1px solid #ccc; /* Border to define the box */
+    background-color: rgb(223, 208, 238); /* Background color of the box */
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 0 50px rgba(126, 64, 64, 0.1);
+}
+.box4 {
+    width: 400px; /* Adjust width as needed */
+    position: absolute;
+    top: 25.5cm;
+    text-align: justify;
+    left: 830px;
+    border-radius: 30px;
+    border: 1px solid #ccc; /* Border to define the box */
+    background-color: rgb(223, 208, 238); /* Background color of the box */
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 0 50px rgba(126, 64, 64, 0.1);
+    text-shadow: 1cm;
+}
+
+.absolute-div {
+    position: absolute;
+    left: 60.5%;
+    top: 31.5cm;
+    color: antiquewhite;
+    transform: translateX(-50%);
+    width: 1030px; /* Example width */
+    height: auto; /* Example height */
+    background-color: rgb(223, 208, 238);
+    border-radius: 0px; /* Adjust the border-radius for more or less roundness */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adjust top margin for spacing */
+    border-radius: 30px;
+}
+.cuisine{
+    position: absolute;
+    top: 30cm;
+    color: rgb(54, 40, 68);
+    left: 17.5cm;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    margin: 0 10px; /* Adjust margin between containers */
+}
+
+.text {
+    flex: 70%; /* Takes 70% of the container */
+    padding: 10px;
+    color: rgb(54, 40, 68);
+    box-sizing: border-box;
+}
+
+.image {
+    flex: 30%; /* Takes 30% of the container */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image img {
+    max-width: 100%; /* Ensure image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline styling */
+}
+
+.bg{
+    background-image: url('front.jpg'); 
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    height: 350px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(20, 20, 20); 
+    opacity: 60%;
+    
+}
+.front{
+    
+    opacity: 90%;
+}
+
+.bottom{
+    background-color: rgb(170, 101, 235);
+    height: auto;
+    width: 28.3cm;
+    position: absolute;
+    top: 45.3cm;
+    text-align: center;
+}
